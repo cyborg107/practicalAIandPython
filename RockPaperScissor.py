@@ -6,9 +6,9 @@ moves = ['rock', 'paper', 'scissors']
 # 2. User input
 user_move = input("Choose rock, paper, or scissors: ").lower()
 
-# 3. AI decision logic (nested conditionals)
+# 3. Computer decision logic (nested conditionals)
 if user_move in moves:
-    # AI uses weighted probabilities (optional: change weights)
+    # computer/AI uses weighted probabilities (optional: change weights)
     ai_move = random.choices(
         moves, 
         weights=[0.4, 0.3, 0.3],  # 40% rock, 30% paper, 30% scissors
